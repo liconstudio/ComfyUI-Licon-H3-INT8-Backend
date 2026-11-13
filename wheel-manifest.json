@@ -1,0 +1,41 @@
+{
+  "schema": 2,
+  "distribution": "comfy-kitchen",
+  "versions": [
+    "0.2.35"
+  ],
+  "sources": {
+    "0.2.35": "https://pypi.org/pypi/comfy-kitchen/0.2.35/json"
+  },
+  "license": "Apache-2.0",
+  "wheels": [
+    {
+      "filename": "comfy_kitchen-0.2.35-cp312-abi3-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "url": "https://files.pythonhosted.org/packages/8b/c5/13b976741bc3b35f3a7fcded995c5a774dccfe69aee0e792a0381378777c/comfy_kitchen-0.2.35-cp312-abi3-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "9c59e898101d2657f967910acf6abc6f772d76b945da86c5fda5f7d817d1cda1",
+      "size": 47178127,
+      "known_native_files": {
+        "comfy_kitchen/backends/cuda/_C.abi3.so": {
+          "name": "comfy_kitchen/backends/cuda/_C.abi3.so",
+          "size": 31337280,
+          "sha256": "948447031483b98828137480f8642ade050262218e142f9c0ae0ddadccbfc3de"
+        }
+      },
+      "version": "0.2.35"
+    },
+    {
+      "filename": "comfy_kitchen-0.2.35-cp312-abi3-win_amd64.whl",
+      "url": "https://files.pythonhosted.org/packages/d0/f4/180a69b2b6b812f0fad2dfe0d020a773edf774c806bf88537a8043d7f36f/comfy_kitchen-0.2.35-cp312-abi3-win_amd64.whl",
+      "sha256": "0d05380b8dade098c4acecf8fed876a0ae0d14cd8a28934a83ab843d7ceb8e16",
+      "size": 38542167,
+      "known_native_files": {
+        "comfy_kitchen/backends/cuda/_C.abi3.pyd": {
+          "name": "comfy_kitchen/backends/cuda/_C.abi3.pyd",
+          "size": 20976128,
+          "sha256": "e91d27c67607dbcb9a1a2c331ee31173f548fd9a3420e59d23fb2ca74ba78e62"
+        }
+      },
+      "version": "0.2.35"
+    }
+  ]
+}

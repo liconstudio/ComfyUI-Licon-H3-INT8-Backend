@@ -1,0 +1,23 @@
+[project]
+name = "licon-h3-int8-backend"
+version = "0.2.2"
+description = "A model-scoped legacy INT8 backend for MiniMax H3 in ComfyUI"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { file = "LICENSE" }
+authors = [{ name = "Licon" }]
+dependencies = []
+classifiers = [
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: Microsoft :: Windows",
+    "Environment :: GPU :: NVIDIA CUDA",
+]
+
+[project.urls]
+Repository = "https://github.com/liconstudio/ComfyUI-Licon-H3-INT8-Backend"
+"Bug Tracker" = "https://github.com/liconstudio/ComfyUI-Licon-H3-INT8-Backend/issues"
+
+[tool.comfy]
+DisplayName = "Licon H3 INT8 Backend"
+# Set the real PublisherId created at https://registry.comfy.org.
+# PublisherId = "YOUR-PUBLISHER-ID"

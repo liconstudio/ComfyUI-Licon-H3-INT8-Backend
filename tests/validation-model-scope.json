@@ -1,0 +1,47 @@
+{
+  "scope_provider": "CPU eager TEST DOUBLE; native counters simulated",
+  "actual_comfy_model_patcher": true,
+  "configure_does_not_mutate_weight_storage": true,
+  "clones_preserve_patches_injections_and_independent_scope": true,
+  "native_restores_methods_and_only_removes_owned_hooks": true,
+  "ordinary_and_fused_linear_routes": [
+    {
+      "version": "0.2.35",
+      "op": "int8_linear",
+      "input_act": null
+    },
+    {
+      "version": "0.2.35",
+      "op": "int8_linear",
+      "input_act": null
+    },
+    {
+      "version": "0.2.35",
+      "op": "int8_linear",
+      "input_act": "swiglu"
+    }
+  ],
+  "real_patch_weight_to_device_routes": [
+    {
+      "version": "0.2.35",
+      "op": "dequantize_int8_convrot_weight_dtype",
+      "input_act": null
+    },
+    {
+      "version": "0.2.35",
+      "op": "quantize_int8_convrot_weight",
+      "input_act": null
+    }
+  ],
+  "real_load_and_unpatch_restore_base_weight": true,
+  "thread_isolation_other_ops_and_context_restoration": true,
+  "zero_hits_and_executor_errors_fail_with_restored_context": true,
+  "full_precision_bypass_detected": true,
+  "removed_034_workflow_is_rejected_without_fallback": true,
+  "legacy_native_roundtrip_preserves_model_local_runtime": true,
+  "legacy_035_default_and_native_workflow_compatibility": true,
+  "dynamic_clone_and_non_dynamic_delegate_preserve_scope": "metadata only; unused Aimdo HostBuffer is mocked",
+  "later_instance_method_conflict_rejected": true,
+  "native_works_without_payload_legacy_failure_is_explicit": true,
+  "global_priority_and_disabled_backends_unchanged": true
+}

@@ -1,0 +1,8 @@
+.github/
+tests/
+RELEASE.md
+CONTRIBUTING.md
+CHANGELOG.md
+vendor/
+__pycache__/
+*.pyc

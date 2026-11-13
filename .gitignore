@@ -1,0 +1,21 @@
+# Generated private native payload; install.py verifies and restores it.
+/vendor/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+*.whl
+*.so
+*.pyd
+*.dll
+*.log
+.env
+.env.*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

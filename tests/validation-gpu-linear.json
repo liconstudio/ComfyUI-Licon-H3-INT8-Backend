@@ -1,0 +1,122 @@
+{
+  "reference": "Kitchen 0.2.35",
+  "cases": [
+    {
+      "case": "adaln_m1",
+      "m": 1,
+      "k": 2688,
+      "n": 96768,
+      "group": 64,
+      "dtype": "torch.bfloat16",
+      "input_act": null,
+      "finite": true,
+      "output_sha256": "e4b4f558f60a658aa2c17f0b4f012b70a57014ed7daeb8f381c9c9f2325bcbe8",
+      "plugin_equals_old": true,
+      "current_039_equals_old": true
+    },
+    {
+      "case": "adaln_m2",
+      "m": 2,
+      "k": 2688,
+      "n": 96768,
+      "group": 64,
+      "dtype": "torch.bfloat16",
+      "input_act": null,
+      "finite": true,
+      "output_sha256": "17e711aa5c0d46764d0757a392036b058b995befdede1c82e0aded6c975320ec",
+      "plugin_equals_old": true,
+      "current_039_equals_old": true
+    },
+    {
+      "case": "qkv_m3",
+      "m": 3,
+      "k": 5376,
+      "n": 21504,
+      "group": 256,
+      "dtype": "torch.bfloat16",
+      "input_act": null,
+      "finite": true,
+      "output_sha256": "e47c8a50e919a9aa8095247ce45cdb9f9213bca5654f76821bb062d1ba025bb2",
+      "plugin_equals_old": true,
+      "current_039_equals_old": true
+    },
+    {
+      "case": "out_m129",
+      "m": 129,
+      "k": 7168,
+      "n": 5376,
+      "group": 256,
+      "dtype": "torch.bfloat16",
+      "input_act": null,
+      "finite": true,
+      "output_sha256": "05b369956bd1de157559f617ec755986d93f72d7807c98703258f6ac1e066d8b",
+      "plugin_equals_old": true,
+      "current_039_equals_old": true
+    },
+    {
+      "case": "fc1_m257",
+      "m": 257,
+      "k": 5376,
+      "n": 28672,
+      "group": 256,
+      "dtype": "torch.bfloat16",
+      "input_act": null,
+      "finite": true,
+      "output_sha256": "0e7306ae0a92f0c495e2152554ee50caf8e4f997de8603e26606cabe6d9d5e34",
+      "plugin_equals_old": true,
+      "current_039_equals_old": true
+    },
+    {
+      "case": "fc2_swiglu_m257",
+      "m": 257,
+      "k": 14336,
+      "n": 5376,
+      "group": 256,
+      "dtype": "torch.bfloat16",
+      "input_act": "swiglu",
+      "finite": true,
+      "output_sha256": "9828043c547abc65364a20600d918bc44cfebf9ee72fe770bf8ee8cbd03e059d",
+      "plugin_equals_old": true,
+      "current_039_equals_old": true
+    },
+    {
+      "case": "fc2_swiglu_m8192",
+      "m": 8192,
+      "k": 14336,
+      "n": 5376,
+      "group": 256,
+      "dtype": "torch.bfloat16",
+      "input_act": "swiglu",
+      "finite": true,
+      "output_sha256": "95cb5092393f8efb42347293c87c8040759558c07941024e4c32f732e317b1ce",
+      "plugin_equals_old": true,
+      "current_039_equals_old": true
+    },
+    {
+      "case": "qkv_fp16",
+      "m": 17,
+      "k": 5376,
+      "n": 21504,
+      "group": 256,
+      "dtype": "torch.float16",
+      "input_act": null,
+      "finite": true,
+      "output_sha256": "3e33cdf74f1ea716db17b72155bf6fd62550df533a00ad688e1818b7be7d22a9",
+      "plugin_equals_old": true,
+      "current_039_equals_old": true
+    },
+    {
+      "case": "fc2_fp16",
+      "m": 17,
+      "k": 14336,
+      "n": 5376,
+      "group": 256,
+      "dtype": "torch.float16",
+      "input_act": "swiglu",
+      "finite": true,
+      "output_sha256": "e545a081f2369fdb25f5a0d25a4e7d92376146ae05c7a99b889ef0c10a7c7e90",
+      "plugin_equals_old": true,
+      "current_039_equals_old": true
+    }
+  ]
+}
