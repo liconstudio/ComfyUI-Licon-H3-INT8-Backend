@@ -1,3 +1,0 @@
-# No pip dependencies are installed by this plugin.
-# Use the PyTorch and comfy-kitchen already supplied by your ComfyUI installation.
-# install.py verifies and extracts an official 0.2.35 CUDA extension privately.

@@ -19,5 +19,3 @@ Repository = "https://github.com/liconstudio/ComfyUI-Licon-H3-INT8-Backend"
 
 [tool.comfy]
 DisplayName = "Licon H3 INT8 Backend"
-# Set the real PublisherId created at https://registry.comfy.org.
-# PublisherId = "YOUR-PUBLISHER-ID"

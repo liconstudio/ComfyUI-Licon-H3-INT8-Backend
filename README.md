@@ -57,4 +57,4 @@ The text encoder, VAE and attention backend remain in the current environment. I
 
 ## License
 
-[Apache-2.0](LICENSE). Includes adapted code and an official native extension from [Comfy-Org/comfy-kitchen](https://github.com/Comfy-Org/comfy-kitchen). See [third-party notices](THIRD_PARTY_NOTICES.md).
+[Apache-2.0](LICENSE). Includes adapted INT8 Python code from [Comfy-Org/comfy-kitchen](https://github.com/Comfy-Org/comfy-kitchen), with package wiring and imports changed for private use. The installer retrieves the unmodified official CUDA extension and preserves its original licenses. See [NOTICE](NOTICE) for upstream attribution.
