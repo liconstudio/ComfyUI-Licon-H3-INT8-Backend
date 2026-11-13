@@ -4,7 +4,7 @@
 
 A ComfyUI node that switches a MiniMax H3 INT8 model between **Kitchen 0.2.35** and the **current native backend**.
 
-In Licon's tests with H3 INT8 weights, **Kitchen 0.2.35 produced better generation results than Native in some cases**. Use the mode selector to compare them in your own workflow.
+In Licon's tests with H3 INT8 weights, **Kitchen 0.2.35 produced better generation results than the native backend in ComfyUI versions after 0.37**. Use the mode selector to compare them in your own workflow.
 
 ## Modes and ComfyUI versions
 
